@@ -68,10 +68,10 @@ const vcard = 'BEGIN:VCARD\n'
             + 'END:VCARD'
 
 prefix = "*"
-name = "~ AMJAD BOT"
-rdaftar = "HALLO KAK MAKASIH UDH DAFTAR YAA😁"
+name = "~ 🅰°🅹°ɓσT"
+rdaftar = "HALLO daftar adichu thudangu😁"
 rmenu = "HALLO KAK😊"
-botinfo = "MAU SEWA DONASI DLU YA KAK:)"
+botinfo = "🅰°🅹° PUBLIC BOT"
 limitt = 9999999999
 memberLimit = 2
 ban = ["6283806369677@s.whatsapp.net"]
@@ -181,7 +181,7 @@ async function starts() {
 			
 
 			mess = {
-				wait: '*⏳ കുറച്ചു നേരം കാത്തിരിക്കാൻ പറ്റുമോ പുള്ളേ കുറച്ചു ടൈം പിടിക്കും *',
+				wait: '*⏳ കുറച്ചു നേരം കാത്തിരിക്കാൻ പറ്റുമോ   സക്കീർ ബായിക്ക് കുറച്ചു ടൈം പിടിക്കും *',
 				success: '*𝗦𝗨𝗖𝗖𝗘𝗦...*',
 				error: {
 					stick: ' *𝗠𝗔𝗔𝗙 𝗧𝗘𝗥𝗝𝗔𝗗𝗜 𝗞𝗘𝗦𝗔𝗟𝗔𝗛 𝗦𝗔𝗔𝗧 𝗖𝗢𝗡𝗩𝗘𝗥𝗧 𝗧𝗢 𝗦𝗧𝗜𝗖𝗞𝗘𝗥*',
@@ -401,7 +401,7 @@ async function starts() {
 					} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 					}
-					captionnya = `╭─「 *അംജദ് പൊളി ആണ് കേട്ടോ* 」\n│ *ഇനി അങ്ങ് നമുക്ക് പൊളിക്കാം മുത്തേ *: \n│ *ഇൻസ്റ്റഗ്രാം :amjadali_786*\n│\n│ *date ${date} ${time}* \n│[ *Name* ]: *${pushname2}*\n│[ *Nomor* ]: *wa.me/${sender.split("@")[0]}*\n│ *ഇനി ഓരോ കമാൻഡ് അടിക്കുമ്പോളും ബോട്ട് തിരിച്ചു മറുപടി തന്നോളും * \n│ *ബോട്ട് മനുഷ്യനല്ലല്ലോ പുള്ളേ * \n│ *ഇനി ഇത് അടിക്കുക ${prefix}help/menu* \n│\n│ *Total users* :  *${user.length} Orang* \n╰─────────────────────────`
+					captionnya = `╭─「 *🅰°🅹° പൊളി ആണ് കേട്ടോ* 」\n│ *ഇനി അങ്ങ് നമുക്ക് പൊളിക്കാം മുത്തേ *: \n│ *ഇൻസ്റ്റഗ്രാം :mUBAsHiR*\n│\n│ *date ${date} ${time}* \n│[ *Name* ]: *${pushname2}*\n│[ *Nomor* ]: *wa.me/${sender.split("@")[0]}*\n│ *ഇനി ഓരോ കമാൻഡ് അടിക്കുമ്പോളും ബോട്ട് തിരിച്ചു മറുപടി തന്നോളും * \n│ *ബോട്ട് മനുഷ്യനല്ലല്ലോ പുള്ളേ * \n│ *ഇനി ഇത് അടിക്കുക ${prefix}help/menu* \n│\n│ *Total users* :  *${user.length} Orang* \n╰─────────────────────────`
 					daftarimg = await getBuffer(ppimg)
 					dms.sendMessage(from, daftarimg, image, {quoted: mek, caption: captionnya})
 					break 
@@ -456,7 +456,7 @@ async function starts() {
 					me = dms.user
 					user.push(sender)
 					uptime = process.uptime()
-					teks = `➽ *Nama Bot* : ${me.name}\n➽ *Owner Bot* : wa.me/917306149125\n➽ *prefix* : | ${prefix} |\n➽ *Total Block* : ${blocked.length}\n➽ *Aktif Sejak* : ${kyun(uptime)}\n\n➽ *Total Pengguna* : ${user.length} User\n➽ *Instagram* : https://www.instagram.com/anker_2412\n➽ *Special Thanks To* :\n\n➽ Allah SWT \n➽ MhankBarBar\n➽ Nurutomo\n➽ Monurios\n➽Fxc7\n➽https://github.com/Fxc7/termux-bot-wa`
+					teks = `➽ *Nama Bot* : ${me.name}\n➽ *Owner Bot* : wa.me/966572004810\n➽ *prefix* : | ${prefix} |\n➽ *Total Block* : ${blocked.length}\n➽ *Aktif Sejak* : ${kyun(uptime)}\n\n➽ *Total Pengguna* : ${user.length} User\n➽ *Instagram* : https://www.instagram.com/anker_2412\n➽ *Special Thanks To* :\n\n➽ Allah SWT \n➽ MhankBarBar\n➽ Nurutomo\n➽ Monurios\n➽Fxc7\n➽https://github.com/Fxc7/termux-bot-wa`
 					buffer = await getBuffer(me.imgUrl)
 					dms.sendMessage(from, buffer, image, {quoted: mek, caption: teks, contextInfo:{mentionedJid: [me.jid]}})
 					break 
